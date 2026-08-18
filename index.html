@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Web | Aprimorando Interfaces Digitais</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__content">
+      <a href="#" class="logo">Interfaces<span>Digitais</span></a>
+      
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+        <span class="theme-toggle__icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="container hero__content">
+        <div class="hero__text">
+          <h1>Aprimorando Interfaces Digitais</h1>
+          <p>Aprenda a estruturar projetos web, criar layouts responsivos com Flexbox e adicionar interatividade com JavaScript de forma simples e eficiente.</p>
+          <a href="#projetos" class="btn">Ver projetos</a>
+        </div>
+        <div class="hero__image">
+          <div class="hero__card">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2>O que você vai aprender</h2>
+        <div class="about__grid">
+          <article class="card">
+            <div class="card__icon">📁</div>
+            <h3>Arquivos Independentes</h3>
+            <p>Separe HTML, CSS e JavaScript em arquivos diferentes para deixar o código organizado e fácil de manter.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">📱</div>
+            <h3>Layouts Responsivos</h3>
+            <p>Use Flexbox para criar interfaces que se adaptam a qualquer tamanho de tela, do celular ao desktop.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">⚡</div>
+            <h3>Interatividade</h3>
+            <p>Adicione funcionalidades com JavaScript, como a troca de tema claro/escuro que você está usando agora.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon">✨</div>
+            <h3>Experiência do Usuário</h3>
+            <p>Melhore a UX pensando em usabilidade, hierarquia visual e feedback para quem interage com a página.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projects">
+      <div class="container">
+        <h2>Projetos de exemplo</h2>
+        <div class="projects__grid">
+          <article class="project-card">
+            <div class="project-card__image"></div>
+            <div class="project-card__content">
+              <h3>Portfólio Pessoal</h3>
+              <p>Layout responsivo com Flexbox e alternância de tema.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image"></div>
+            <div class="project-card__content">
+              <h3>Landing Page</h3>
+              <p>Página de produto com seções bem estruturadas e navegação suave.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image"></div>
+            <div class="project-card__content">
+              <h3>Dashboard Simples</h3>
+              <p>Interface com cards e layout flexível para diferentes dispositivos.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+      <div class="container contact__content">
+        <h2>Vamos programar juntos?</h2>
+        <p>Este projeto foi criado seguindo os objetivos da unidade do Start by Alura.</p>
+        <a href="mailto:seuemail@exemplo.com" class="btn">Entrar em contato</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 — Projeto desenvolvido para a unidade <strong>Página web: aprimorando interfaces digitais</strong></p>
+      <p>Start by Alura • Instrutora: Giulliana Cestari</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
